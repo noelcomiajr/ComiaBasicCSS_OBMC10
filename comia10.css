@@ -1,0 +1,57 @@
+body{
+	align-items: center;
+	background-color: rgb(252,124,124);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	font-family: 'Piazzolla', serif;
+	margin: 0;
+	padding: 0;
+}
+header, section{
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	margin: auto;
+	padding-left: 10vw;
+	padding-right: 10vw;
+}
+header{
+	margin-top: 5vh;
+	font-style: italic;
+	font-size: 1.5vh;
+}
+section{ 
+	flex: 1; 
+	margin-top: 5vh; 
+	text-align: center;
+}
+.header{
+	font-size: 10vh;
+	font-family: 'Sansita Swashed', cursive;
+	color: rgb(117,183,224);
+	margin: 0;
+	padding: 0;
+}
+.wrapper{
+	align-items: center;
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	margin-top: 14vh;
+	padding-top: 5vh;
+	padding-right: 10vw;
+	margin-right: 15vw;
+	padding-left: 10vw;
+	margin-left:15vw;
+	margin-bottom: 5vh;
+	padding-bottom: 5vh;
+}
+select{
+	margin:0;
+	text-align: center;
+		text-align-last: center;
+	-moz-text-align-last: center;
+}
+h5{ margin:0; }
+option{ text-align: center; }
